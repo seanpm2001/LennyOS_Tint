@@ -33,9 +33,14 @@
 *.css linguist-documentation=false
 *.css linguist-language=CSS
 # MoonScript source file
-*.moon linguist-detectable=true
-*.moon linguist-documentation=false
-*.moon linguist-language=MoonScript
+# Added entries to repositories in the wrong order again
+# *.moon linguist-detectable=true
+# *.moon linguist-documentation=false
+# *.moon linguist-language=MoonScript
+# Lua source file
+*.lua linguist-detectable=true
+*.lua linguist-documentation=false
+*.lua linguist-language=Lua
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -171,7 +176,7 @@
 # File info
 
 # File type: gitattributes file (*.gitattributes)
-# File version: 5 (2023, Tuesday, July 18th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 178
+# File version: 6 (2023, Tuesday, July 18th at 2:40 pm PST)
+# Line count (including blank lines and compiler line): 183
 
 # End of script
